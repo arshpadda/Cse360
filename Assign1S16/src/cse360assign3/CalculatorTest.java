@@ -96,9 +96,19 @@ public class CalculatorTest {
 
 	@Test
 	/**
-	 * No implementation testGetHistory
+	 * Check the string history after initialization of object
 	 */
-	public void testGetHistory() {
-		fail("Not yet implemented");
+	public void testGetHistoryOne() {
+		Calculator obj = new Calculator();
+		assertEquals(obj.getHistory(),"0");
+	}
+	
+	/**
+	 * Check the string history after adding 10
+	 */
+	public void testGetHistoryTwo() {
+		Calculator obj = new Calculator();
+		obj.add(10);
+		assertEquals(obj.getHistory(),"0 + 10");
 	}
 }
