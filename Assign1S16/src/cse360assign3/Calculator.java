@@ -1,6 +1,6 @@
 
 package cse360assign3;
-/**Calculator class with no implementation 
+/**Calculator class with simple calculator Operation 
  * 
  * @author Arsh Padda
  * @version Feb 17, 2016
@@ -16,7 +16,7 @@ public class Calculator {
 	}
 	/**
 	 * Return value of total variable 
-	 * @return 0
+	 * @return total
 	 */
 	public int getTotal () {
 		return total;
